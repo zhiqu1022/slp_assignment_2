@@ -1,0 +1,13 @@
+My assignment of POS tagging is based on HMM model that I implemented from scratch.
+So, it's a little rough.
+
+The acc on test set is: 84.1%
+
+Explanation:
+    1. block 1 is to read data by util implemented by me.
+    2. block 2 is to clean data, specifically, I adopted the method mentioned by SLP book to deal with UNK.
+    3. block 3 is training process.
+    4. block 4 is to read test data
+    5. block 5 is to test model
+        5.1. replacing the unkown token with UNK which trained in training.
+        5.2. based on vertibi algorithm to search the path.
