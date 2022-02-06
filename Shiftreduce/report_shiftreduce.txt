@@ -1,0 +1,11 @@
+My assignment of POS tagging is based on shiftreduce algorithm and Perceptron model with unigram feature.
+My logic follows slides of Neubig Sensei.
+
+The acc on test set is: 54.9%
+
+Explanation:
+    1. block 1 is to read and format data by utils implemented by me.
+    2. block 2 is to combine features.
+    3. block 3 is to define methods for computing and training.
+    4. block 4 is to train the perceptron. BTW, maybe train 3-5 epochs could have a better result.
+    5. block 5 is to test based on the shiftreduce algorithm.
